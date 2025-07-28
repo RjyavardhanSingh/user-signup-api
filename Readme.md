@@ -18,6 +18,41 @@ A simple RESTful API for user registration built with Node.js and Express. It fe
 - uuid
 - validator
 
+## Project Setup (2025 Update)
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/RjyavardhanSingh/user-signup-api.git
+   cd user-signup-api
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   npm install express bcrypt uuid validator
+   ```
+
+3. Create an empty `database.json` file in the project root:
+
+   ```sh
+   echo [] > database.json
+   ```
+
+4. Start the server:
+   ```sh
+   node server.js
+   ```
+
+The server will start on port 5000 by default, or the port specified in the `PORT` environment variable.
+
 ## Getting Started
 
 ### Prerequisites
