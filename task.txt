@@ -1,0 +1,21 @@
+Design a simple backend API endpoint for user registration. The endpoint should:
+
+
+1. Accept a POST request with a JSON body containing username, email, and password.
+2. Validate the input (e.g., email format, password length, record duplicacy).
+3. Hash the password securely.
+4. Save the user to a JSON database (JSON file).
+5. Return a success response (e.g., user ID and message).
+
+
+Acceptance Criteria:
+
+The candidate is asked to create a basic signup system. 
+It should take a username, email, and password; check if everything is valid; 
+Safely protect the password; save the user info in a file; and return a success message with the user ID. If these steps are working, the assignment is correct.
+
+
+
+Submission Process:
+
+Create a Github repository with public access.Push the codes to this newly created Github repo and share the repo URL over email to (akash@growhut.in, hr@growhut.in)
