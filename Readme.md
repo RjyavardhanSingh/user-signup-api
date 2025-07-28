@@ -18,7 +18,7 @@ A simple RESTful API for user registration built with Node.js and Express. It fe
 - uuid
 - validator
 
-## Project Setup (2025 Update)
+## Project Setup 
 
 ### Prerequisites
 
