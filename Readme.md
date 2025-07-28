@@ -111,7 +111,10 @@ Content-Type: application/json
 - **201 Created**
 
   ```json
-  { "message": "User registered successfully" }
+    {
+    "message": "User registered successfully",
+    "userId": "a30f18f3-f2d8-4815-83ee-19e5519c52ac"
+    }
   ```
 
 - **400 Bad Request** (missing fields, invalid email, short password, or duplicate email)
